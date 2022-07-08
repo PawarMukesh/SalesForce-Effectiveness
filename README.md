@@ -85,7 +85,7 @@ When analyzing the performance of a salesperson, a number of metrics can be comp
 * All feature is contain lots of different label so we compressed and merged the labels such that only the main ones were included
 * In this data some feature contain blank spaces so we need to replace with NAN values.
 * No scaling required as well as no need to handle outlier
-* Used encoding technique to handle categorical feature
+* Use freqency encoding technique to handle categorical feature
 * No need to handle duplicates because of Im mereged and compressed label.
 
 ### BASIC CHECKS:
@@ -95,7 +95,7 @@ When analyzing the performance of a salesperson, a number of metrics can be comp
 
 ### EXPLOTARY DATA ANALYSIS:
 * In EDA first is univariate analysis in that we get all unique labels and range of selling product as well as impoertant insights of labels,so lots of feature contain different labels this labels are belong to same category so I'm compressed and merged the labels.
-* Im not perform any bivariate and multivariate analysis because of no continious feature avialable on this data.but i apply certain contain on data to get important insights.
+* Im not perform any bivariate and multivariate analysis because of no continious feature avialable on this data.but i apply certain condition on data to get important insights.
 
 ### DATA PREPROCESSING:
 *	In this data set blank spaces are available so I converted to NaN values.
