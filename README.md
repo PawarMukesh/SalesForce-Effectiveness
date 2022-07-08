@@ -27,6 +27,7 @@ BASED ON GIVEN FEATURE WE NEED TO PREDICT THE LEAD CATEGORY OF CUSTOMER[HIGH POA
 8. Model Saving.
 
 ### DOMAIN ANALYSIS:
+
 #### Sales effectiveness:
 Sales effectiveness refers to the ability of a company's sales professionals to “win” at each stage of the customer's buying process, and ultimately earn the business on the right terms and in the right timeframe. Improving sales effectiveness is not just a sales function issue; it's a company issue, as it requires deep collaboration between sales and marketing to understand what is working and not working, and continuous improvement of the knowledge, messages, skills, and strategies that sales people apply as they work sales opportunities.
 
@@ -88,23 +89,23 @@ When analyzing the performance of a salesperson, a number of metrics can be comp
 * No need to handle duplicates because of Im mereged and compressed label.
 
 ### BASIC CHECKS:
-•	In this data total 7422 observation with 9 feature.
-•	3 unique feature.[date&time, email, mobile no]
-•	No constant column in data
+*	In this data total 7422 observation with 9 feature.
+*	3 unique feature.[date&time, email, mobile no]
+*	No constant column in data
 
 ### DATA PREPROCESSING:
-•	In this data set blank spaces are available so I converted to NaN values.
-•	Impute NaN value with mode because all feature is categorical.
-•	Compressed and merged label because the labels are belong to same category.
-•	Handle categorical data.
+*	In this data set blank spaces are available so I converted to NaN values.
+*	Impute NaN value with mode because all feature is categorical.
+*	Compressed and merged label because the labels are belong to same category.
+*	Handle categorical data.
 
 ### FEATURE ENGINEERING:
-•	Drop all unique column [ Created, Email, Mobile no]
-•	Changing the data type 
-•	Get correlation and plot heat map
+*	Drop all unique column [ Created, Email, Mobile no]
+*	Changing the data type 
+*	Get correlation and plot heat map
 
 ### SAVE PRE-PROCESS DATA:
-•	Save all pre-process data
+*	Save all pre-process data
 
 
 
@@ -115,25 +116,25 @@ When analyzing the performance of a salesperson, a number of metrics can be comp
 
 
 ### MODEL CREATION AND EVALUATION:
-•	In this data I will be experimenting with seven algorithm
-•	Logistic regression model is not perform well on training as well as testing side
-•	KNN model is perform well on training side but not perform well on testing side so that’s why I use bagging but the score is sightly improve
-•	Decision tree training accuracy is around 84% but the testing accuracy is 71% after using hyperparameter tunning score is not improve
-•	Random forest training accuracy is around 84% but the testing accuracy is 72% after using hyperparameter tunning score is 73% 
-•	Gradient boosting classifier model training accuracy is around 74% but the testing accuracy is 74% so gradient boosting classifier is perform well on testing as well as training side
-•	XGBoost model is perform well on training side but in testing side not perform well
-•	ANN model training and testing score is low
+*	In this data I will be experimenting with seven algorithm
+*	Logistic regression model is not perform well on training as well as testing side
+*	KNN model is perform well on training side but not perform well on testing side so that’s why I use bagging but the score is sightly improve
+*	Decision tree training accuracy is around 84% but the testing accuracy is 71% after using hyperparameter tunning score is not improve
+*	Random forest training accuracy is around 84% but the testing accuracy is 72% after using hyperparameter tunning score is 73% 
+*	Gradient boosting classifier model training accuracy is around 74% but the testing accuracy is 74% so gradient boosting classifier is perform well on testing as well as training side
+*	XGBoost model is perform well on training side but in testing side not perform well
+*	ANN model training and testing score is low
 
 ### CONCLUSION:
-•	From above all model I will be select Gradient boosting model because it well perform on training as well as testing side so I can say that this model is low bias and low variance model 
+*	From above all model I will be select Gradient boosting model because it well perform on training as well as testing side so I can say that this model is low bias and low variance model 
 
 ### MODEL SAVING:
-•	Save the model using pickle 
+*	Save the model using pickle 
 
 
 
 
 
-                                                                        !THANK YOU!
+                                                                       !THANK YOU!
 
 
