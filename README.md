@@ -139,6 +139,6 @@ When analyzing the performance of a salesperson, a number of metrics can be comp
 
 
 
-                                                                     !THANK YOU!  
+                                                                    
 
 
