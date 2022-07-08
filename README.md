@@ -93,6 +93,10 @@ When analyzing the performance of a salesperson, a number of metrics can be comp
 *	3 unique feature.[date&time, email, mobile no]
 *	No constant column in data
 
+### EXPLOTARY DATA ANALYSIS:
+* In EDA first is univariate analysis in that we get all unique labels and range of selling product as well as impoertant insights of labels,so lots of feature contain different labels this labels are belong to same category so I'm compressed and merged the labels.
+* Im not perform any bivariate and multivariate analysis because of no continious feature avialable on this data.but i apply certain contain on data to get important insights.
+
 ### DATA PREPROCESSING:
 *	In this data set blank spaces are available so I converted to NaN values.
 *	Impute NaN value with mode because all feature is categorical.
