@@ -1,4 +1,6 @@
 # SALES FORCE EFFECTIVENESS - CLIENT PROJECT
+![image](https://github.com/user-attachments/assets/390638af-d334-4e85-835a-39c571672eeb)![image](https://github.com/user-attachments/assets/b17edb5f-e4e1-4b13-9ff6-3e42e1a6dd3c)
+
 
 ## BUSINESS CASE: 
 BASED ON GIVEN FEATURE WE NEED TO PREDICT THE LEAD CATEGORY OF CUSTOMER[HIGH POATENTIAL, LOW POTENTIAL]
